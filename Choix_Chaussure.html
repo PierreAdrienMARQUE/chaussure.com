@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+               .selection{
+                    backgrond-color: brown
+                    color: white;
+                    margin: 20 px;
+               } 
+            </style>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Chaussure.com</title>
+        </head>
+        
+        <body>       
+            
+            <h2>Type de Chaussure</h2>
+            <FORM NAME="Type de chaussure">
+                <TD><SELECT NAME="TYPE_chaussaure" onchange='Choix(this.form)'>
+                    <OPTION VALUE=""> --Choisir Type  de chaussure--</OPTION>
+                    <OPTION VALUE="BOTTE">BOTTE</OPTION>
+                    <OPTION VALUE="VILLE">VILLE</OPTION>
+                    <OPTION VALUE="CHAUSSON">CHAUSSON</OPTION>
+                    <OPTION VALUE="SANDALLE">SANDALLE</OPTION>
+                </SELECT></TD>
+            </FORM>
+            <h2>Marque</h2>
+            <FORM NAME="MARQUE">
+                <TD><SELECT NAME="MARQUE" onchange='Choix(this.form)'>
+                    <OPTION VALUE=""> --Choisir la marque--</OPTION>
+                    <OPTION VALUE="NIKE">NIKE</OPTION>
+                    <OPTION VALUE="MEPHISTO">MEPHISTO</OPTION>
+                    <OPTION VALUE="LACOSTE">LACOSTE</OPTION>
+                    <OPTION VALUE="COLOMBIA">COLOMBIA</OPTION>
+                </SELECT></TD>
+            </FORM>
+            <h2>Couleur</h2>
+            <FORM NAME="Couleur">
+                <TD><SELECT NAME="COULEUR" onchange='Choix(this.form)'>
+                    <OPTION VALUE=""> --Choisir la couleur--</OPTION>
+                    <OPTION VALUE="NOIRE">NOIRE</OPTION>
+                    <OPTION VALUE="BLANC">BLANC</OPTION>
+                    <OPTION VALUE="GRIS">GRIS</OPTION>
+                    <OPTION VALUE="MARRON">MARRON</OPTION>
+                    <OPTION VALUE="ROUGE">ROUGE</OPTION>
+                    <OPTION VALUE="BLEU">BLEU</OPTION>
+                    <OPTION VALUE="VERT">VERT</OPTION>
+                </SELECT></TD>
+            </FORM>
+            <h2>Pointure</h2>
+            <FORM NAME="Pointure">
+                <TD><SELECT NAME="POINTURE" onchange='Choix(this.form)'>
+                    <OPTION VALUE=""> --Choisir la pointure--</OPTION>
+                    <OPTION VALUE="36">36</OPTION>
+                    <OPTION VALUE="37">37</OPTION>
+                    <OPTION VALUE="38">38</OPTION>
+                    <OPTION VALUE="39">39</OPTION>
+                    <OPTION VALUE="40">40</OPTION>
+                    <OPTION VALUE="41">41</OPTION>
+                    <OPTION VALUE="42">42</OPTION>
+                    <OPTION VALUE="43">43</OPTION>
+                    <OPTION VALUE="44">44</OPTION>
+                    <OPTION VALUE="45">45</OPTION>
+                </SELECT></TD>
+            </FORM>
+            <button value="valider">Valider</button>
+            <button onclick="window.location.href='Acceuil.html';">Annuler</button>
+        </body>
+    </html>
